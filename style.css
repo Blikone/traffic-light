@@ -1,0 +1,66 @@
+body {
+  background-image: repeating-linear-gradient(30deg, black, black 10px, #050505 10px, #111 20px); 
+}
+
+.pole, .traffic-light-box {
+  background-color: rgb(40,40,40);
+  margin: auto;
+}
+
+.pole {
+  height: 50px;
+  width: 20px;
+}
+
+.traffic-light-box {
+  width: 70px;
+  padding: 8px;
+}
+
+.light {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border-top:5px solid rgb(20,20,20);
+  margin: 5px;
+}
+
+#red-light {
+  background-color: #f14;
+}
+#red-light:hover {
+  box-shadow: 0 0 40px 0 #f14;
+}
+
+#yellow-light {
+  background-color: #ff3;
+}
+#yellow-light:hover {
+  box-shadow: 0 0 40px 0 #ff3;
+}
+
+#green-light {
+  background-color: #3f1;
+}
+#green-light:hover {
+  box-shadow: 0 0 40px 0 #3f1;
+}
+
+.btn {
+    padding: 30px;
+    border-radius: 50%;
+
+}
+.btn:hover {
+    cursor: pointer;
+    font-family: monospace;
+}
+.btn-success {
+    background-color: green;
+}
+.btn-danger {
+    background-color: red;
+}
+.btn-primary {
+    background-color: cornflowerblue;
+}
